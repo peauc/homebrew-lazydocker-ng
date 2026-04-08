@@ -3,7 +3,7 @@ cask "lazydocker-ng" do
   name "lazydocker-ng"
   desc "The continuation of lazydocker the simple terminal UI for docker, written in Go"
   homepage "https://github.com/peauc/lazydocker-ng/"
-  version "0.26.1"
+  version "0.27.2"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "lazydocker-ng" do
   on_macos do
     on_intel do
       url "https://github.com/peauc/lazydocker-ng/releases/download/v#{version}/lazydocker-ng_#{version}_Darwin_x86_64.tar.gz"
-      sha256 "206f360ce9e613cdf6d6a39989e432d14c6dca70c4be825bc47b664749b7ab9f"
+      sha256 "cb8983ded72958fbef61f6b36942ddc975968fd8d9f2fc67f33c706fec923103"
     end
     on_arm do
       url "https://github.com/peauc/lazydocker-ng/releases/download/v#{version}/lazydocker-ng_#{version}_Darwin_arm64.tar.gz"
-      sha256 "90e50b759f46f40156ed60e6da765a62ea6c3a6f7b229bd9a3e7c85ec27ebf84"
+      sha256 "3d91b7243c7230e72c200274f0fff303db29c834fdeefd647f9b8b4a73c8ba8e"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/peauc/lazydocker-ng/releases/download/v#{version}/lazydocker-ng_#{version}_Linux_x86_64.tar.gz"
-      sha256 "6d7fd33f4828bee69d20608bd36311c40b152894e8bf3d77c0293ce26b2c4ac2"
+      sha256 "eb4066843b1e86d6df662c9500278ea43c7b624ac2f6906f52d9cf1ec46fa7ec"
     end
     on_arm do
       url "https://github.com/peauc/lazydocker-ng/releases/download/v#{version}/lazydocker-ng_#{version}_Linux_arm64.tar.gz"
-      sha256 "fbf96f74a48dcb883740eed0ec3a484c442bffde7745aaa89ccf7021233ec7e5"
+      sha256 "7caeba08374dec70ce490ae81c95f62a9ac012d4b7f1244d26de0b2e83ab5ff2"
     end
   end
 
